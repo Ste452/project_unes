@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNES - ホームページ</title>
+
+    <style>
+
+        @keyframes example {
+            0%   {color:rgb(192, 177, 177);}
+            25%  {color:rgb(92, 204, 189);}
+            50%  {color:rgb(78, 78, 212);}
+            75%  {color:rgb(120, 190, 120);}
+            100% {color:rgb(112, 83, 83);}
+          }
+          
+          /* The element to apply the animation to */
+          a:hover {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+          }
+
+    </style>
+
+</head>
+<body background="./photos/背景2.png">
+    
+    <table border="0" width="90%" align="center" style="margin-top: 3rem;">
+        
+        <tr>
+            <td height="90px" width="40px"><img src="./photos/すぐ.png" alt="写真"></td>
+            <td align="right" width="60px"> 
+                <a style="text-decoration:none;" href="インデックス.html">インデックス</a> | 
+                <a style="text-decoration:none;" href="接触.html">接触</a> |  
+                <a style="text-decoration:none;" href="私たちとは.html">私たちとは</a>
+            </td>
+        </tr>
+
+        <tr>    
+            <td>
+                <h1 class="container"><strong>接触</strong></h1>
+                <p class="container" width="40%">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                </p>
+
+                <hr>
+
+            </td>    
+        </tr>
+
+        <tr>    
+            <td>
+                <form>
+                    <label for="fname">あなたの名前:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">苗字：</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">メールアドレスを入力</label><br>
+                    <input type="email" id="gmail" name="email"><br>
+
+                    <label for="主題">主題</label><br>
+                    <textarea name="主題" id="主題" cols="30" rows="10"></textarea>
+                  </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <h4><strong>無断転載を禁じます。 </strong></h4>
+            </td>
+        </tr>
+        
+    </table>
+
+</body>
+</html>
